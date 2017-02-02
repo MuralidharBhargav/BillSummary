@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @bill_summary.Title %>
+</p>
+
+<p>
+  <strong>Paymentdate:</strong>
+  <%= @bill_summary.PaymentDate %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @bill_summary.Description %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @bill_summary.Amount %>
+</p>
+
+<%= link_to 'Edit', edit_bill_summary_path(@bill_summary) %> |
+<%= link_to 'Back', bill_summaries_path %>

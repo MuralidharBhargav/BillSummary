@@ -1,0 +1,2 @@
+class BillSummary < ApplicationRecord
+end

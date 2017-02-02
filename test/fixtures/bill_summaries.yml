@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Title: MyText
+  PaymentDate: MyText
+  Description: MyText
+  Amount: MyText
+
+two:
+  Title: MyText
+  PaymentDate: MyText
+  Description: MyText
+  Amount: MyText
